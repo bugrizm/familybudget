@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/filter"
+        android:title="@string/filter_payments"
+        app:showAsAction="always"
+        android:icon="@drawable/filter_icon">
+    </item>
+
+    <item android:id="@+id/action_new_tag"
+        android:title="@string/action_new_tag"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_year_summary"
+        android:title="@string/year_summary"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_transfer_budgets"
+        android:title="@string/transfer_budgets"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+</menu>

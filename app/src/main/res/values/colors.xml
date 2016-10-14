@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_white">#DDDDDD</color>
+    <color name="blue">#64E1F0</color>
+    <color name="dark_blue">#42BFCD</color>
+    <color name="red">#E33030</color>
+    <color name="dark_red">#C10808</color>
+    <color name="black">#000000</color>
+    <color name="alpha_black">#44000000</color>
+    <color name="alpha_black2">#11000000</color>
+    <color name="alpha_white">#44FFFFFF</color>
+
+
+    <string-array name="selectable_color_list">
+        <item>F5E618</item>
+        <item>1820F5</item>
+        <item>F76D52</item>
+        <item>851781</item>
+        <item>35D627</item>
+        <item>43E6E3</item>
+        <item>C38ADE</item>
+        <item>AFD945</item>
+        <item>FABA4B</item>
+        <item>ADA28E</item>
+    </string-array>
+</resources>

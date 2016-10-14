@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pliName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/paymentIcon" />
+
+    <TextView
+        android:id="@+id/pliDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:textSize="14sp"
+        android:layout_toEndOf="@id/paymentIcon"
+        android:layout_below="@+id/pliName" />
+
+    <TextView
+        android:id="@+id/pliAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <com.bugra.familybudget.view.PaymentIconView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/paymentIcon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/paymentIconTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="18dp"
+        android:textColor="@color/white"/>
+</RelativeLayout>

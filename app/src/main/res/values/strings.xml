@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Family Budget</string>
+    <string name="title_activity_new_payment">Yeni Ödeme Ekle</string>
+    <string name="title_activity_new_tag">Yeni Etiket Ekle</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_new_tag">Yeni Etiket</string>
+    <string name="year_summary">Yıllık Rapor</string>
+    <string name="transfer_budgets">Bütçeleri Transfer Et</string>
+    <string name="single_payment">Tek Ödeme</string>
+    <string name="installment">Taksit</string>
+    <string name="income">Gelir</string>
+    <string name="paymentName">Adı</string>
+    <string name="total_amount">Toplam Miktar</string>
+    <string name="number_of_installments">Taksit Sayısı</string>
+    <string name="save_payment">Kaydet</string>
+    <string name="tag_name">Adı</string>
+    <string name="letter_representation">Temsili Harf</string>
+    <string name="save_tag">Kaydet</string>
+    <string name="detail_payment_amount">Miktarı:</string>
+    <string name="payment_date">Tarih:</string>
+    <string name="payment_tag">Etiket:</string>
+    <string name="filter_payments">Filtrele</string>
+    <string name="error">HATA</string>
+    <string name="cant_connect_to_server">Sunucuya bağlanılamadı.</string>
+    <string name="ok">Tamam</string>
+    <string name="it_will_be_deleted">Silinecek</string>
+    <string name="are_you_sure_to_delete">İlgili ödemeyi silmek istediğinize emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="all">Hepsi</string>
+    <string name="tag_not_selected">Etiket seçmediniz.</string>
+    <string name="enter_payment_name">İsim giriniz.</string>
+    <string name="enter_payment_amount">Toplam miktarını giriniz.</string>
+    <string name="enter_payment_installment_amount">Toplam taksit sayısını giriniz.</string>
+    <string name="tag_name_cant_be_empty">Etiket adı boş olamaz.</string>
+    <string name="tag_representation_letter_cant_be_empty">Etiket temsili harfi boş olamaz.</string>
+    <string name="tag_color_should_be_chosen">Renk seçmelisiniz.</string>
+
+    <string-array name="months_array">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+    </string-array>
+
+</resources>
